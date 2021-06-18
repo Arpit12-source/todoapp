@@ -1,0 +1,78 @@
+.add{
+    width: 50vw;
+    height: 10vh;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20vh;
+    background-image: linear-gradient(to bottom right,rgb(147, 147, 209), #424fff);
+    padding: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.add__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(180,180,180) , 
+    #787878
+    );
+    padding: 20px;
+    border-radius: 20px;
+    height: 8vh;
+    padding: 5px;
+  
+    
+}
+.add__input{
+   flex: 1; 
+   border: none;
+   height: 5vh;
+   border-radius: 15px;
+   margin: 7px;
+   padding: 3px;
+   
+}
+.add__input:focus{
+    outline: none;
+
+}
+.add__button{
+    width: 75px;
+    border: none;
+    border-radius: 15px;
+    height: 5vh;
+    margin: 7px;
+    
+}
+.card{
+    margin-top: 100px;
+   
+}
+.list{
+    background-image: linear-gradient(to right, #787878 ,rgb(180,180,180)
+    );
+    width: 93%;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.first{
+    flex: 1;
+}
+.two {
+    color: rgb(255, 58, 58);
+  
+    
+}
+.checked{
+    color: rgb(91, 255, 91);
+}
+.notchecked{
+    color :rgb(255, 58, 58);
+}

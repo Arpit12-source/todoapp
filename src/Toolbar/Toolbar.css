@@ -1,0 +1,33 @@
+.navlinks{
+    background-image: linear-gradient(to bottom right,rgb(147, 147, 209), #424fff);
+    width: 100vw;
+    height: 8vh;
+    
+    align-items: center;
+
+}
+.navlinks__ul{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.navlinks__li{
+    /* background-color: cadetblue; */
+    width: 50px;
+    border-radius: 5px;
+  
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a{
+    color: cornsilk;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(0, 0, 0)
+}
